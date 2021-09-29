@@ -80,9 +80,9 @@ function btrBlastOff() {
 
     console.log("btrBlastOff() started");
     var currtime = 50;
-    for (var i = 0; i < 50; i = i++) {
+    for (var i = 0; i < 10; i = i++) {
         setTimeout(function () {
-            if (currtime >= 10) {
+            if (currtime >= 25) {
                 //if conditions are true
                 document.getElementById("counddowntimer").innerHTML = currtime;
 
@@ -99,6 +99,3 @@ function btrBlastOff() {
 
     }
 }
-
-
-play();
