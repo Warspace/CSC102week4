@@ -80,7 +80,7 @@ function btrBlastOff() {
 
     console.log("btrBlastOff() started");
     var currtime = 50;
-    for (var i = 0; i < 10; i = i++) {
+    for (var i = 0; i < 10; i++) {
         setTimeout(function () {
             if (currtime >= 25) {
                 //if conditions are true
